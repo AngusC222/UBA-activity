@@ -13,6 +13,6 @@
 
 ## Example:
 
-<div align="center"><img alt="Example Graph" src="src/img/graph.png"></div>
+<div align="center"><img alt="Example Graph" src="./img/graph.png"></div>
 
 <p align="center">as of 22/01/2024</p>
