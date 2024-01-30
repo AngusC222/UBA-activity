@@ -30,6 +30,21 @@
 
 ### Example:
 
-<div align="center"><img alt="Example Graph Of Tryouts Hosted Over Time" src="./tryouts/img/graph.png"></div>
+<div align="center"><img alt="Example Graph Of Tryouts Hosted Over Time" src="./tryouts/line/img/graph.png"></div>
+
+<p align="center">as of 30/01/2024</p>
+
+## Lifetime Tryouts Hosted
+
+### How does this work?
+
+1. The discord.py file retrieves all the messages from the #regimental channel on the Discord.
+2. The main.py then searches all the *"Total Regimental Tryouts Hosted* posts for the amount of tryouts being hosted by each regiment using regex.
+3. Each regiment is given its own individual bar in the bar graph.
+4. the graph is then saved to the graph.png file.
+
+### Example:
+
+<div align="center"><img alt="Example Chart Of Lifetime Tryouts Hosted" src="./tryouts/bar/img/graph.png"></div>
 
 <p align="center">as of 30/01/2024</p>

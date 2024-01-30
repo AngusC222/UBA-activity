@@ -52,7 +52,7 @@ def plotLineGraph(tryouts, path=None):
     plt.plot(timeStamps, grenadierGuards, marker='o', label='Grenadier Guards', color='gold')
 
     plt.xlabel('Timestamp')
-    plt.ylabel('Tryouts hosted')
+    plt.ylabel('Daily Tryouts hosted')
     plt.title('Daily Tryouts Hosted Over Time')
     plt.legend()
 
