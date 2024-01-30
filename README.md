@@ -4,21 +4,6 @@
 
 > A script that creates a line graph of activity in the UBA server
 
-## Activity Over Time
-
-### How does this work?
-
-1. The discord.py file retrieves all the messages from the #activity channel on the Discord.
-2. the timestamps and reaction count is extracted from all the *"Activity check posts*.
-3. The script then generates a line graph with timestamps on the X-axis and reaction counts on the Y-axis
-4. Then the graph is saved to the graph.png file.
-
-### Example:
-
-<div align="center"><img alt="Example Graph Of Activity Over Time" src="./activity/img/graph.png"></div>
-
-<p align="center">as of 22/01/2024</p>
-
 ## Daily Tryouts Hosted Over Time
 
 ### How does this work?
@@ -48,3 +33,20 @@
 <div align="center"><img alt="Example Chart Of Lifetime Tryouts Hosted" src="./tryouts/bar/img/graph.png"></div>
 
 <p align="center">as of 30/01/2024</p>
+
+## Activity Over Time
+
+### How does this work?
+
+1. The discord.py file retrieves all the messages from the #activity channel on the Discord.
+2. the timestamps and reaction count is extracted from all the *"Activity check posts*.
+3. The script then generates a line graph with timestamps on the X-axis and reaction counts on the Y-axis
+4. Then the graph is saved to the graph.png file.
+
+### Example:
+
+<div align="center"><img alt="Example Graph Of Activity Over Time" src="./activity/img/graph.png"></div>
+
+<p align="center">as of 22/01/2024</p>
+
+
